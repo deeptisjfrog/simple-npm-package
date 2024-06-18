@@ -1,28 +1,37 @@
 {
-  "name": "@clarkio/simple-npm-package",
-  "version": "0.0.2",
-  "description": "A simple npm package for demonstration purposes and use in a Node.js app.",
-  "main": "index.js",
+  "name": "wui",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/clarkio/simple-npm-package.git"
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.1.0",
+    "next-auth": "^4.24.7",
+    "next-themes": "^0.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "tailwind-merge": "^2.2.2",
+    "winston-daily-rotate-file": "^5.0.0"
   },
-  "author": "clarkio",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/clarkio/simple-npm-package/issues"
-  },
-  "homepage": "https://github.com/clarkio/simple-npm-package#readme",
-  "keywords": [
-    "node.js",
-    "javascript",
-    "npm",
-    "package",
-    "example",
-    "demo",
-    "hello world"
-  ]
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
 }
+
+has context menu
